@@ -52,7 +52,7 @@ namespace APIMIDDLEWARE.Triggers.Rest
             {
                 var result = AddIncident(form);
                 if (result != null)
-                    return new { TicketNumber = result.Key };
+                    return new { GetIncidentObject(result.Key).Information.TicketNumber };
             }
             return null;
         }
@@ -64,7 +64,7 @@ namespace APIMIDDLEWARE.Triggers.Rest
             {
                 var result = UpdateIncident(incident.Information.TicketNumber, form);
                 if (result != null)
-                    return new { TicketNumber = result.Key };
+                    return new { GetIncidentObject(result.Key).Information.TicketNumber };
             }
             return null;
         }
