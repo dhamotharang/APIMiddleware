@@ -1,0 +1,13 @@
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.deps.json
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.json
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.dev.json
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csproj.CoreCompileInputs.cache
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cache
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cs
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfoInputs.cache
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfo.cs
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
