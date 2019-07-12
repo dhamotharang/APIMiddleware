@@ -30,12 +30,35 @@ namespace APIMIDDLEWARE.Controllers
         public object Get(string id)
         {
             //return id;
-            var a = new IncidentHandler();
-            var b = a.GetIncidentObject(id);
 
-            if (b != null)
-                return b;
+            var a = new IncidentHandler();
+            var b = new Incident()
+            {
+                Title = "AAA CCC BBB",
+                Information = new Incident.IInformation() { TicketNumber = "WS00-20190712-IM-0016" }
+            };
+            var c = a.UpdateIncidentObject(b);
+            if (c != null)
+                return c;
             return NotFound();
+
+            //var a = new IncidentHandler();
+            //var b = new Incident()
+            //{
+            //    Title = "abce 1456",
+            //    Description = "alibaba 9999  666"
+            //};
+            //var c = a.AddIncidentObject(b);
+            //if (c != null)
+            //    return c;
+            //return NotFound();
+
+            //var a = new IncidentHandler();
+            //var b = a.GetIncidentObject(id);
+
+            //if (b != null)
+            //    return b;
+            //return NotFound();
 
             //var a = new IncidentHandler();
             //var c = new IncidentHandler.CustomField();
