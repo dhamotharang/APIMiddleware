@@ -412,13 +412,45 @@ namespace APIMIDDLEWARE.Triggers.Rest
             return incident;
         }
 
-        /** To-do: insert & update incident info based on 'incident' object 
-         * instead of the traditional api trigger ways (FormPostPatch.InsertionItem / FormPostPatch.UpdationItem)
-        **/
         public static FormPostPatch.InsertionItem ConvertObjectToInsertionForm(Incident incident)
         {
-            return null;
+            if (incident == null) return null;
+            var form = new FormPostPatch.InsertionItem();
+
+            if (incident.RaiseUser != null && !string.IsNullOrEmpty(incident.RaiseUser.Key))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "RaiseUser", Value = incident.RaiseUser.Key });
+
+            if (incident.ActualLocation != null && !string.IsNullOrEmpty(incident.ActualLocation.Key))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_Office1", Value = incident.ActualLocation.Key });
+
+            if (!string.IsNullOrEmpty(incident.Title))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Title", Value = incident.Title });
+
+            if (!string.IsNullOrEmpty(incident.Description))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Description", Value = incident.Description });
+
+            if (incident.Category != null && !string.IsNullOrEmpty(incident.Category.Key))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Category", Value = incident.Category.Key });
+
+            if (incident.Urgency != null && !string.IsNullOrEmpty(incident.Urgency.Key))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_IncidentUrgency", Value = incident.Urgency.Key });
+
+            if (incident.Source != null && !string.IsNullOrEmpty(incident.Source.Key))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_IncidentSource", Value = incident.Source.Key });
+
+            if (incident.ResponseLevel != null && !string.IsNullOrEmpty(incident.ResponseLevel.Key))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "ResponseLevel", Value = incident.ResponseLevel.Key });
+
+            if (!string.IsNullOrEmpty(incident.FloorNumber))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_FloorNumber", Value = incident.FloorNumber });
+
+            return form;
         }
+
+        /** To-do: insert & update incident info based on 'incident' object 
+         * instead of the traditional api trigger ways (FormPostPatch.InsertionItem / FormPostPatch.UpdationItem)
+         * Need to figure the field used to update
+        **/
         public static FormPostPatch.UpdationItem ConvertObjectToUpdationForm(Incident incident)
         {
             return null;
