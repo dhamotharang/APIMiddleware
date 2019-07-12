@@ -52,7 +52,7 @@ namespace APIMIDDLEWARE.Triggers.Rest
             {
                 var result = AddIncident(form);
                 if (result != null)
-                    return new { GetIncidentObject(result.Key).Information.TicketNumber };
+                    return new { ConvertFormToObject(GetIncidentByGuid(result.Key)).Information.TicketNumber };
             }
             return null;
         }
@@ -64,7 +64,7 @@ namespace APIMIDDLEWARE.Triggers.Rest
             {
                 var result = UpdateIncident(incident.Information.TicketNumber, form);
                 if (result != null)
-                    return new { GetIncidentObject(result.Key).Information.TicketNumber };
+                    return new { ConvertFormToObject(GetIncidentByGuid(result.Key)).Information.TicketNumber };
             }
             return null;
         }
@@ -447,13 +447,84 @@ namespace APIMIDDLEWARE.Triggers.Rest
             return form;
         }
 
-        /** To-do: insert & update incident info based on 'incident' object 
-         * instead of the traditional api trigger ways (FormPostPatch.InsertionItem / FormPostPatch.UpdationItem)
+        /** To-do: update incident info based on 'incident' object 
+         * instead of the traditional api trigger ways (FormPostPatch.UpdationItem)
          * Need to figure the field used to update
         **/
-        public static FormPostPatch.UpdationItem ConvertObjectToUpdationForm(Incident incident)
+        public static FormPostPatch.UpdationItem ConvertObjectToUpdationForm(Incident incident) // Depends on ticket number instead of key
         {
-            return null;
+            if (incident == null || incident.Information == null || 
+                string.IsNullOrEmpty(incident.Information.TicketNumber)) return null;
+
+            // Temp solution - Restrict to access with static
+            var incidentHandler = new IncidentHandler();
+
+            var previousIncident = incidentHandler.GetIncidentObject(incident.Information.TicketNumber);
+            if (previousIncident == null) return null;
+
+            var form = new FormPostPatch.UpdationItem();
+
+            if (incident.RaiseUser != null && !string.IsNullOrEmpty(incident.RaiseUser.Key) &&
+                !incident.RaiseUser.Key.Equals(previousIncident.RaiseUser.Key))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "RaiseUser", Value = incident.RaiseUser.Key });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "RaiseUser", Value = previousIncident.RaiseUser.Key });
+            }
+
+            if (incident.ActualLocation != null && !string.IsNullOrEmpty(incident.ActualLocation.Key) &&
+                !incident.ActualLocation.Key.Equals(previousIncident.ActualLocation.Key))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_Office1", Value = incident.ActualLocation.Key });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "_Office1", Value = previousIncident.ActualLocation.Key });
+            }
+
+            if (!string.IsNullOrEmpty(incident.Title) && !incident.Title.Equals(previousIncident.Title))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Title", Value = incident.Title });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "Title", Value = previousIncident.Title });
+            }
+
+            if (!string.IsNullOrEmpty(incident.Description) && !incident.Description.Equals(previousIncident.Description))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Description", Value = incident.Description });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "Description", Value = previousIncident.Description });
+            }
+
+            if (incident.Category != null && !string.IsNullOrEmpty(incident.Category.Key) &&
+                !incident.Category.Key.Equals(previousIncident.Category.Key))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Category", Value = incident.Category.Key });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "Category", Value = previousIncident.Category.Key });
+            }
+
+            if (incident.Urgency != null && !string.IsNullOrEmpty(incident.Urgency.Key) &&
+                !incident.Urgency.Key.Equals(previousIncident.Urgency.Key))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_IncidentUrgency", Value = incident.Urgency.Key });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "_IncidentUrgency", Value = previousIncident.Urgency.Key });
+            }
+
+            if (incident.Source != null && !string.IsNullOrEmpty(incident.Source.Key) &&
+                !incident.Source.Key.Equals(previousIncident.Source.Key))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_IncidentSource", Value = incident.Source.Key });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "_IncidentSource", Value = previousIncident.Source.Key });
+            }
+
+            if (incident.ResponseLevel != null && !string.IsNullOrEmpty(incident.ResponseLevel.Key) &&
+                !incident.ResponseLevel.Key.Equals(previousIncident.ResponseLevel.Key))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "ResponseLevel", Value = incident.ResponseLevel.Key });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "ResponseLevel", Value = previousIncident.ResponseLevel.Key });
+            }
+
+            if (!string.IsNullOrEmpty(incident.FloorNumber) && !incident.FloorNumber.Equals(previousIncident.FloorNumber))
+            {
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_FloorNumber", Value = incident.FloorNumber });
+                form.OriginalValues.Add(new FormPostPatch.FormItem() { Name = "_FloorNumber", Value = previousIncident.FloorNumber });
+            }
+
+            return form;
         }
     }
 }
