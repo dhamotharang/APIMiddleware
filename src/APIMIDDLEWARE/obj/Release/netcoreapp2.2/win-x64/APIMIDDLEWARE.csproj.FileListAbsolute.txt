@@ -1,0 +1,17 @@
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.exe
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.deps.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.runtimeconfig.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.runtimeconfig.dev.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.dll
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.pdb
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.csprojAssemblyReference.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.csproj.CoreCompileInputs.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.RazorAssemblyInfo.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.RazorAssemblyInfo.cs
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.AssemblyInfoInputs.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.AssemblyInfo.cs
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.dll
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.pdb
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\hostpolicy.dll
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\hostfxr.dll

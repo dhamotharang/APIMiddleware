@@ -11,3 +11,21 @@ C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netco
 C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
 C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
 C:\Users\Goh Theng Khai\source\repos\APIMIDDLEWARE\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.deps.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.dev.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csproj.CoreCompileInputs.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cs
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfoInputs.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfo.cs
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csprojAssemblyReference.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\customsettings.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

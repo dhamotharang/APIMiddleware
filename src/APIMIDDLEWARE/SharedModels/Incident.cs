@@ -56,13 +56,13 @@ namespace APIMIDDLEWARE.SharedModels
             [DataMember]
             public string IPPhone { get; set; } // RaiseUser._IPPhone
             [DataMember]
-            public string Office { get; set; } // _Office
+            public IOffice Office { get; set; } // _Office
             [DataMember]
-            public string Group { get; set; } // _Group
+            public IGroup Group { get; set; } // _Group
             [DataMember]
-            public string Section { get; set; } // _Section2
+            public ISection Section { get; set; } // _Section2
             [DataMember]
-            public string State { get; set; } // _State
+            public IState State { get; set; } // _State
         }
 
         [DataContract]
@@ -82,6 +82,33 @@ namespace APIMIDDLEWARE.SharedModels
             public string Key { get; set; } //_Office1->Value
             [DataMember]
             public string Name { get; set; } //_Office1->DisplayText
+        }
+
+        [DataContract]
+        public class IGroup
+        {
+            [DataMember]
+            public string Key { get; set; }
+            [DataMember]
+            public string Name { get; set; }
+        }
+
+        [DataContract]
+        public class ISection
+        {
+            [DataMember]
+            public string Key { get; set; }
+            [DataMember]
+            public string Name { get; set; }
+        }
+
+        [DataContract]
+        public class IState
+        {
+            [DataMember]
+            public string Key { get; set; }
+            [DataMember]
+            public string Name { get; set; }
         }
 
         [DataContract]

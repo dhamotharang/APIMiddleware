@@ -18,6 +18,53 @@ namespace APIMIDDLEWARE.Triggers.Rest.ModelTemplates
             public QueryResource Resources { get; set; }
         }
 
+        public class UserQuery
+        {
+            public QueryInfo QueryDefinition { get; set; }
+            public QueryDataRowsUsers[] DataRows { get; set; }
+            public int CurrentPage { get; set; }
+            public int PageCount { get; set; }
+            public int TotalCount { get; set; }
+            public int ValueStructureType { get; set; }
+            public QueryResource Resources { get; set; }
+        }
+
+        public class QueryDataRowsUsers
+        {
+            public string ClassName { get; set; }
+            public Guid Key { get; set; }
+            public QueryDataRowValuesUsers Values { get; set; }
+            
+        }
+
+        public class QueryDataRowValuesUsers
+        {
+            public string Title { get; set; }
+            public string EMailAddress { get; set; }
+            public UserOffice _Office1 { get; set; }
+            public UserSection _Section21 { get; set; }
+            public UserState _State1 { get; set; }
+            public UserDepartment _Department { get; set; }
+        }
+
+        public class UserOffice
+        {
+            public string Key { get; set; }
+            public string _Title { get; set; }
+        }
+        public class UserSection
+        {
+            public string _Title { get; set; }
+        }
+        public class UserState
+        {
+            public string _Title { get; set; }
+        }
+        public class UserDepartment
+        {
+            public string Title { get; set; }
+        }
+
         public class QueryInfo
         {
             public string QueryName { get; set; }

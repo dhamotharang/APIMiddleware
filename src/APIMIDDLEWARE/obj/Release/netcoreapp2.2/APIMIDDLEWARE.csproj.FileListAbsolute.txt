@@ -1,0 +1,14 @@
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\APIMIDDLEWARE.deps.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.dev.json
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\APIMIDDLEWARE.dll
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\APIMIDDLEWARE.pdb
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.csprojAssemblyReference.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.csproj.CoreCompileInputs.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cs
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfoInputs.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfo.cs
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.dll
+C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\APIMIDDLEWARE.pdb

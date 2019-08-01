@@ -3,7 +3,7 @@
     "RestClient": {
       "ClientUrl": "http://10.5.3.51/SSMDEV.Framework",
       "BasicAuthInfo": {
-        "Username": "sa",
+        "Username": "armohdzamri",
         "Password": ""
       },
       "LifeCycleName": "NewProcess3"

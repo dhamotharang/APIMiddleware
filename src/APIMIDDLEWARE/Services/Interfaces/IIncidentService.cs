@@ -1,4 +1,5 @@
 ﻿using APIMIDDLEWARE.SharedModels;
+using System;
 using System.ServiceModel;
 
 namespace APIMIDDLEWARE.Services.Interfaces
@@ -8,5 +9,7 @@ namespace APIMIDDLEWARE.Services.Interfaces
 	{
 		[OperationContract]
 		Incident GetIncident(string ticketNumber);
+        [OperationContract]
+        Object CreateIncident(string ServiceType, string Description, string CustomerMailId, string CRMID, string SPOC);
 	}
 }

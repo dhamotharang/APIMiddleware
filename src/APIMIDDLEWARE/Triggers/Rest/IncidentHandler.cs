@@ -209,19 +209,22 @@ namespace APIMIDDLEWARE.Triggers.Rest
 
                 var office = userInfo.FormItems.Where(x => x.FullName.Equals("_Office")).FirstOrDefault();
                 if (office != null)
-                    incident.RaiseUser.Office = office.DisplayText;
+                {
+                    incident.RaiseUser.Office = new Incident.IOffice() { Name = office.DisplayText };
 
-                var group = userInfo.FormItems.Where(x => x.FullName.Equals("_Group")).FirstOrDefault();
+            }
+
+            var group = userInfo.FormItems.Where(x => x.FullName.Equals("_Group")).FirstOrDefault();
                 if (group != null)
-                    incident.RaiseUser.Group = group.DisplayText;
+                    incident.RaiseUser.Group = new Incident.IGroup() { Name = group.DisplayText };
 
                 var section = userInfo.FormItems.Where(x => x.FullName.Equals("_Section2")).FirstOrDefault();
                 if (section != null)
-                    incident.RaiseUser.Section = section.DisplayText;
+                    incident.RaiseUser.Section = new Incident.ISection() { Name = section.DisplayText };
 
                 var state = userInfo.FormItems.Where(x => x.FullName.Equals("_State")).FirstOrDefault();
                 if (state != null)
-                    incident.RaiseUser.State = state.DisplayText;
+                    incident.RaiseUser.State = new Incident.IState { Name = state.DisplayText };
             }
 
             var officeInfo = incidentForm.FormItems.Where(x => x.Label.Equals(Incident.IOffice.FormItemGroupLabel)).FirstOrDefault();
@@ -419,7 +422,8 @@ namespace APIMIDDLEWARE.Triggers.Rest
 
             if (incident.RaiseUser != null && !string.IsNullOrEmpty(incident.RaiseUser.Key))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "RaiseUser", Value = incident.RaiseUser.Key });
-
+            if (incident.RaiseUser.Section != null && !string.IsNullOrEmpty(incident.RaiseUser.Section.Key))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_Section", Value = incident.RaiseUser.Section.Key });
             if (incident.ActualLocation != null && !string.IsNullOrEmpty(incident.ActualLocation.Key))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_Office1", Value = incident.ActualLocation.Key });
 
