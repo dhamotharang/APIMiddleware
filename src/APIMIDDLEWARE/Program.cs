@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using APIMIDDLEWARE._Functions.Models;
+using System;
 
 namespace APIMIDDLEWARE
 {
@@ -15,8 +10,9 @@ namespace APIMIDDLEWARE
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args)
-                .UseUrls("http://127.0.0.1:5000")
-                .Build().Run();
+                .UseUrls($"{Configuration.Current.SoapClient.ClientUrl}")
+                .Build()
+                .Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

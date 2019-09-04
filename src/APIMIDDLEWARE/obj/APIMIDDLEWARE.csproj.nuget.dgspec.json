@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj": {}
+    "C:\\Users\\a2348\\source\\repos\\zencomputersystems\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj": {}
   },
   "projects": {
-    "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj": {
+    "C:\\Users\\a2348\\source\\repos\\zencomputersystems\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj",
+        "projectUniqueName": "C:\\Users\\a2348\\source\\repos\\zencomputersystems\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj",
         "projectName": "APIMIDDLEWARE",
-        "projectPath": "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj",
-        "packagesPath": "C:\\Users\\zaefr\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\obj\\",
+        "projectPath": "C:\\Users\\a2348\\source\\repos\\zencomputersystems\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj",
+        "packagesPath": "C:\\Users\\a2348\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a2348\\source\\repos\\zencomputersystems\\APIMiddleware\\src\\APIMIDDLEWARE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zaefr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a2348\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,12 +68,7 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
           "warn": true
