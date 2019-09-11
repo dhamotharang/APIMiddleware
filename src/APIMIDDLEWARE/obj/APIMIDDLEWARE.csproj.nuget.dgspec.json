@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj": {}
+    "D:\\New folder\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj": {}
   },
   "projects": {
-    "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj": {
+    "D:\\New folder\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj",
+        "projectUniqueName": "D:\\New folder\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj",
         "projectName": "APIMIDDLEWARE",
-        "projectPath": "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj",
-        "packagesPath": "C:\\Users\\zaefr\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\ZEN\\Jenkins\\Git\\APIMiddleware\\src\\APIMIDDLEWARE\\obj\\",
+        "projectPath": "D:\\New folder\\APIMiddleware\\src\\APIMIDDLEWARE\\APIMIDDLEWARE.csproj",
+        "packagesPath": "C:\\Users\\Nurul Adilah\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\APIMiddleware\\src\\APIMIDDLEWARE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zaefr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nurul Adilah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,15 +65,14 @@
             "SoapCore": {
               "target": "Package",
               "version": "[0.9.9.6, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
           "warn": true

@@ -45,14 +45,14 @@ namespace APIMIDDLEWARE.Triggers.Rest
             return ConvertFormToObject(form);
         }
 
-        public object AddIncidentObject(Incident incident)
+        public Incident AddIncidentObject(Incident incident)
         {
             var form = ConvertObjectToInsertionForm(incident);
             if (form != null)
             {
                 var result = AddIncident(form);
                 if (result != null)
-                    return new { ConvertFormToObject(GetIncidentByGuid(result.Key)).Information.TicketNumber };
+                    return ConvertFormToObject(GetIncidentByGuid(result.Key));
             }
             return null;
         }
@@ -426,28 +426,30 @@ namespace APIMIDDLEWARE.Triggers.Rest
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_Section", Value = incident.RaiseUser.Section.Key });
             if (incident.ActualLocation != null && !string.IsNullOrEmpty(incident.ActualLocation.Key))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_Office1", Value = incident.ActualLocation.Key });
-
             if (!string.IsNullOrEmpty(incident.Title))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Title", Value = incident.Title });
-
             if (!string.IsNullOrEmpty(incident.Description))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Description", Value = incident.Description });
-
             if (incident.Category != null && !string.IsNullOrEmpty(incident.Category.Key))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "Category", Value = incident.Category.Key });
-
             if (incident.Urgency != null && !string.IsNullOrEmpty(incident.Urgency.Key))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_IncidentUrgency", Value = incident.Urgency.Key });
-
             if (incident.Source != null && !string.IsNullOrEmpty(incident.Source.Key))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_IncidentSource", Value = incident.Source.Key });
-
             if (incident.ResponseLevel != null && !string.IsNullOrEmpty(incident.ResponseLevel.Key))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "ResponseLevel", Value = incident.ResponseLevel.Key });
-
             if (!string.IsNullOrEmpty(incident.FloorNumber))
                 form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_FloorNumber", Value = incident.FloorNumber });
-
+            if (!string.IsNullOrEmpty(incident.CustomerFirstName))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_CustomerFirstName", Value = incident.CustomerFirstName });
+            if (!string.IsNullOrEmpty(incident.CustomerLastName))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_CustomerLastName", Value = incident.CustomerLastName });
+            if (!string.IsNullOrEmpty(incident.CustomerMailId))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_CustomerMailID", Value = incident.CustomerMailId });
+            if (!string.IsNullOrEmpty(incident.CurrentAssignAnalyst))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_AssignedAnalystEmail", Value = incident.CurrentAssignAnalyst });
+            if (!string.IsNullOrEmpty(incident.CRMID))
+                form.FormValues.Add(new FormPostPatch.FormItem() { Name = "_CRMID", Value = incident.CRMID });
             return form;
         }
 

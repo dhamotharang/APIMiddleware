@@ -29,3 +29,31 @@ C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcore
 C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\appsettings.json
 C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\customsettings.json
 C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.deps.json
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.json
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.dev.json
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csproj.CoreCompileInputs.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cs
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfoInputs.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfo.cs
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csprojAssemblyReference.cache
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.deps.json
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.json
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.dev.json
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csprojAssemblyReference.cache
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csproj.CoreCompileInputs.cache
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cache
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cs
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfoInputs.cache
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfo.cs
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb

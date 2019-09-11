@@ -15,3 +15,20 @@ C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netco
 C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.pdb
 C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\hostpolicy.dll
 C:\Development\ZEN\Jenkins\Git\APIMiddleware\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\hostfxr.dll
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.exe
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\hostpolicy.dll
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\hostfxr.dll
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.deps.json
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.runtimeconfig.json
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.runtimeconfig.dev.json
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.dll
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\bin\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.pdb
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.csprojAssemblyReference.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.csproj.CoreCompileInputs.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.RazorAssemblyInfo.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.RazorAssemblyInfo.cs
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.AssemblyInfoInputs.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.AssemblyInfo.cs
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.dll
+D:\from old pc\SSM\SSM API MW\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Release\netcoreapp2.2\win-x64\APIMIDDLEWARE.pdb

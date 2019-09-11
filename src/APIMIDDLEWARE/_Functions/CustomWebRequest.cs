@@ -1,4 +1,5 @@
-﻿using System;
+﻿using APIMIDDLEWARE.SharedModels;
+using System;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -6,6 +7,8 @@ using System.Net;
 using APIMIDDLEWARE._Functions.Models;
 using System.Xml;
 using Newtonsoft.Json;
+using System.Xml.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace APIMIDDLEWARE._Functions
 {
@@ -88,6 +91,18 @@ namespace APIMIDDLEWARE._Functions
         }
 
         public static string ObjectToJsonString(object obj) => JsonConvert.SerializeObject(obj);
+
+        public static string ObjectToXML(object obj)
+        {
+            string filename = "soap.xml";
+            XmlSerializer serializer = new XmlSerializer(typeof(Incident));
+            Stream fs = new FileStream(filename, FileMode.Create); //ni line yang create file ok
+            XmlWriter writer = new XmlTextWriter(fs, Encoding.Unicode);
+            // Serialize using the XmlTextWriter
+            serializer.Serialize(writer, obj);
+            writer.Close();
+            return filename;
+        }
 
         // // Not efficient
         //public static string GenerateRequestData(Parameters[] parameters)

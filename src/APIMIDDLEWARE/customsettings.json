@@ -1,15 +1,16 @@
 {
   "APIConfiguration": {
     "RestClient": {
-      "ClientUrl": "http://10.5.3.51/SSMDEV.Framework",
+      "ClientUrl": "http://10.220.30.20/TEST.Framework",
       "BasicAuthInfo": {
-        "Username": "armohdzamri",
-        "Password": ""
+        "Username": "sa",
+        "Password": "@dm1n$$m"
       },
       "LifeCycleName": "NewProcess3"
     },
     "SoapClient": {
       "ClientUrl": "http://127.0.0.1"
+        // Check document on requirement
     }
   }
 }

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-
+using System.Configuration;
 namespace APIMIDDLEWARE
 {
     public class Program
@@ -15,8 +15,10 @@ namespace APIMIDDLEWARE
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args)
-                .UseUrls("http://127.0.0.1:5000")
-                .Build().Run();
+                .UseUrls("http://10.220.30.20:8000")
+                //.UseUrls(ConfigurationManager.AppSettings["EndPoint"].ToString()) //kejap ehh ada orang pangil
+                .Build()
+                .Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

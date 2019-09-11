@@ -17,7 +17,16 @@ namespace APIMIDDLEWARE.SharedModels
         public IUser RaiseUser { get; set; } // RaiseUser
         [DataMember]
         public IOffice ActualLocation { get; set; }
-
+        [DataMember]
+        public string CustomerFirstName { get; set; }
+        [DataMember]
+        public string CustomerLastName { get; set; }
+        [DataMember]
+        public string CustomerMailId { get; set; }
+        [DataMember]
+        public string CRMID { get; set; }
+        [DataMember]
+        public string CurrentAssignAnalyst { get; set; }
         [DataMember]
         public string Title { get; set; } // Title
         [DataMember]
