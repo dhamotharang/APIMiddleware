@@ -60,7 +60,7 @@ namespace APIMIDDLEWARE._Functions
                                 break;
                             case WebRequestInfo.WebServiceType.SOAP:
                                 XmlDocument soapEnvelopeDocument = new XmlDocument();
-                                soapEnvelopeDocument.LoadXml(rqi.RequestData);
+                                soapEnvelopeDocument.Load(rqi.RequestData);
                                 if (!string.IsNullOrEmpty(rqi.SoapAction))
                                     httpWebRequest.Headers.Add("SOAPAction", rqi.SoapAction);
                                 using (Stream stream = httpWebRequest.GetRequestStream())
@@ -88,7 +88,7 @@ namespace APIMIDDLEWARE._Functions
                 while (statusCode != HttpStatusCode.OK && trialCount < 3);
 
             }
-            catch { }
+            catch (WebException ex){ }
             return responseResult;
         }
 

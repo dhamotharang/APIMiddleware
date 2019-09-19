@@ -42,6 +42,7 @@ namespace APIMIDDLEWARE.Controllers
                 return c;
             return NotFound();
 
+            #region Testing
             //var a = new IncidentHandler();
             //var b = new Incident()
             //{
@@ -104,6 +105,7 @@ namespace APIMIDDLEWARE.Controllers
             //if (result == null)
             //    return NotFound();
             //return result;
+            #endregion Testing
         }
 
         // POST: api/Sample
