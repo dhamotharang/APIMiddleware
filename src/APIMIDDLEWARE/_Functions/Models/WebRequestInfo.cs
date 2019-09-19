@@ -19,7 +19,7 @@ namespace APIMIDDLEWARE._Functions.Models
         public WebRequestInfo(WebServiceType webServiceType, string requestUrl,
             RequestType? requestType = null, ContentType? dataType = null,
             string requestData = "", BasicCredential basicCredential = null, 
-            string soapAction = "")
+            string soapAction = "IncidentStatus") 
         {
             Protocol = webServiceType;
             RequestUrl = requestUrl;

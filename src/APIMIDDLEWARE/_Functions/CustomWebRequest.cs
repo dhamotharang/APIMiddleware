@@ -9,6 +9,7 @@ using System.Xml;
 using Newtonsoft.Json;
 using System.Xml.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+using APIMIDDLEWARE.Triggers.Soap.Model;
 
 namespace APIMIDDLEWARE._Functions
 {
@@ -85,6 +86,7 @@ namespace APIMIDDLEWARE._Functions
                     trialCount++;
                 }
                 while (statusCode != HttpStatusCode.OK && trialCount < 3);
+
             }
             catch { }
             return responseResult;
@@ -95,8 +97,8 @@ namespace APIMIDDLEWARE._Functions
         public static string ObjectToXML(object obj)
         {
             string filename = "soap.xml";
-            XmlSerializer serializer = new XmlSerializer(typeof(Incident));
-            Stream fs = new FileStream(filename, FileMode.Create); //ni line yang create file ok
+            XmlSerializer serializer = new XmlSerializer(typeof(CRMIncident));
+            Stream fs = new FileStream(filename, FileMode.Create);
             XmlWriter writer = new XmlTextWriter(fs, Encoding.Unicode);
             // Serialize using the XmlTextWriter
             serializer.Serialize(writer, obj);

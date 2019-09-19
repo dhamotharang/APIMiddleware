@@ -57,3 +57,17 @@ C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.As
 C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
 C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
 C:\APIMiddleware Zack\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.deps.json
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.json
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.runtimeconfig.dev.json
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\bin\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csprojAssemblyReference.cache
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.csproj.CoreCompileInputs.cache
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cache
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorAssemblyInfo.cs
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfoInputs.cache
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.AssemblyInfo.cs
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.RazorTargetAssemblyInfo.cache
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.dll
+D:\New folder\APIMiddleware\src\APIMIDDLEWARE\obj\Debug\netcoreapp2.2\APIMIDDLEWARE.pdb

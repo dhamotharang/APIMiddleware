@@ -16,7 +16,7 @@ namespace APIMIDDLEWARE
         {
             CreateWebHostBuilder(args)
                 .UseUrls("http://10.220.30.20:8000")
-                //.UseUrls(ConfigurationManager.AppSettings["EndPoint"].ToString()) //kejap ehh ada orang pangil
+                //.UseUrls(ConfigurationManager.AppSettings["EndPoint"].ToString()) 
                 .Build()
                 .Run();
         }

@@ -7,10 +7,10 @@ namespace APIMIDDLEWARE.Triggers.Soap.Model
 {
     public class CRMIncident
     {
-        public string Status { get; set; }
-        public string CRMID { get; set; }
-        public string ResolutionRemarks { get; set; }
-        public string Email { get; set; }
-        public string TicketNumber { get; set; }
+        public string IncidentStatus { get; set; }
+        public string CRM_IncidentRefNumber { get; set; }
+        public string SDC_IncidentResolution_Remarks { get; set; }
+        public string Agent_EmailID { get; set; }
+        public string Ticket_Number { get; set; }
     }
 }

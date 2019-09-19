@@ -1,16 +1,17 @@
 {
   "APIConfiguration": {
     "RestClient": {
-      "ClientUrl": "http://10.220.30.20/TEST.Framework",
+      "ClientUrl": "http://10.5.3.51/SSMDEV.Framework",
       "BasicAuthInfo": {
         "Username": "sa",
         "Password": "@dm1n$$m"
       },
       "LifeCycleName": "NewProcess3"
+
+      // 10.220.30.20/TEST.Framework
     },
     "SoapClient": {
-      "ClientUrl": "http://127.0.0.1"
-        // Check document on requirement
+      "ClientUrl": "http://192.168.1.237:8088/mockIncidentBPELProcessBinding?WSDL"
     }
   }
 }

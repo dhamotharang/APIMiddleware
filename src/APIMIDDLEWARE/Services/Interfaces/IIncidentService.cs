@@ -13,6 +13,6 @@ namespace APIMIDDLEWARE.Services.Interfaces
         [OperationContract]
         Incident CreateIncident(string FirstName, string LastName, string Email, string Subject, string Description, string CRMAgentEmail, string CRMID);
         [OperationContract]
-        string UpdateIncident(string CRMID, string Status, string ResolutionRemarks, string TicketNumber, string Email);
+        string UpdateIncident(string CRM_IncidentRefNumber, string IncidentStatus, string SDC_IncidentResolution_Remarks, string Agent_EmailID, string Ticket_Number);
     }
 }

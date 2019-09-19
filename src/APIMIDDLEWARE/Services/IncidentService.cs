@@ -24,11 +24,6 @@ namespace APIMIDDLEWARE.Services
             return restClient.AddIncidentObject(new Incident() { Title = Description, Description = Description, RaiseUser = RaiseUser });
         }
 
-        public bool UpdateIncident(string CRMID, string Status, string ResolutionRemarks, string IncidentNo)
-        {
-            return true;
-        }
-
         public Incident CreateIncident(string FirstName, string LastName, string Email, string Subject, string Description, string CRMAgentEmail, string CRMID)
         {
             var InHandler = new Triggers.Rest.IncidentHandler();
@@ -47,16 +42,21 @@ namespace APIMIDDLEWARE.Services
 
         }
 
-        public string UpdateIncident(string CRMID, string Status, string ResolutionRemarks, string TicketNumber, string Email)
+        public bool UpdateIncident(string CRMID, string Status, string ResolutionRemarks, string IncidentNo)
+        {
+            return true;
+        }
+
+        public string UpdateIncident(string IncidentStatus, string CRM_IncidentRefNumber, string SDC_IncidentResolution_Remarks, string Agent_EmailID, string Ticket_Number)
         {
             var InHandler = new Triggers.Soap.IncidentHandler();
             CRMIncident incident = new CRMIncident()
             {
-                CRMID = CRMID,
-                Status = Status,
-                ResolutionRemarks = ResolutionRemarks,
-                TicketNumber = TicketNumber,
-                Email = Email
+                IncidentStatus = IncidentStatus,
+                CRM_IncidentRefNumber = CRM_IncidentRefNumber,
+                SDC_IncidentResolution_Remarks = SDC_IncidentResolution_Remarks,
+                Agent_EmailID = Agent_EmailID,
+                Ticket_Number = Ticket_Number
             };
 
             return InHandler.UpdateIncident(incident); 
